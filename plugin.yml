@@ -1,0 +1,10 @@
+name: XboxProfile
+author: usy4
+api: 4.0.0
+version: 1.0.0
+main: usy4\XboxProfile\Main
+descriptions: To view offline/online players xbox profile
+
+permissions:
+  xboxprofile.command:
+    default: true
