@@ -1,0 +1,14 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/usy4/XboxProfile
+build-by-default: true
+branches:
+- main
+projects:
+  XboxProfile:
+    path: ""
+    icon: "xbox.png"
+    libs:
+      - src: Vecnavium/FormsUI/FormsUI
+        version: ^1.0.0
+      - src: KenCir/Commando/Commando
+        version: ^3.1.0
+...
