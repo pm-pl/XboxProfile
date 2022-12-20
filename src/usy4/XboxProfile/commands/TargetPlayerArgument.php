@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace usy4\XboxProfile\commands;
 
-use CortexPE\Commando\BaseCommand;
+use CortexPE\Commando\args\BaseArgument;
 use pocketmine\command\CommandSender;
 use pocketmine\network\mcpe\protocol\AvailableCommandsPacket;
 use function is_null;
