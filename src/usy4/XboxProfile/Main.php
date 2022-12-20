@@ -8,14 +8,12 @@ use CortexPE\Commando\PacketHooker;
 
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
-use pocketmine\event\Listener;
 
 use Vecnavium\FormsUI\SimpleForm;
 
-class Main extends PluginBase implements Listener{
+class Main extends PluginBase{
 
     public function onEnable() : void{
-        $this->getServer()->getPluginManager()->registerEvents($this, $this);
         if (!PacketHooker::isRegistered()){    
             PacketHooker::register($this); 
         }        
