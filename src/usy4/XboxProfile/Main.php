@@ -7,6 +7,7 @@ use usy4\XboxProfile\tasks\GetInfoTask;
 
 use CortexPE\Commando\PacketHooker;
 
+use pocketmine\Server;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 
